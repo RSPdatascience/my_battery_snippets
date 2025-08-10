@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_package"
+version = "0.1.0"
+description = "Package with useful python functions for battery data processing"
+authors = [
+  { name="Radostin Pavlov", email="radostin.pavlov@eurecat.org" }
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
